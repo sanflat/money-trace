@@ -18,7 +18,7 @@ const getDonut = (incomePrice:number, expensePrice:number) => {
     },
     {
       name: "EXPENSE",
-      value: -expensePrice      
+      value: expensePrice      
     }
   ];
   return data;
